@@ -12,7 +12,11 @@
     "build": "rimraf dist/ && tsc -p tsconfig.prod.json",
     "prepare": "yarn build"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "file-system",
+    "file-system-tree"
+  ],
   "author": "mutagen-d",
   "license": "ISC",
   "devDependencies": {
